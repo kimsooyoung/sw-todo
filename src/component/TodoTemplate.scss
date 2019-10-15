@@ -1,0 +1,47 @@
+.TodoTemplate {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    background: #907F7C;
+    border-radius: 10px;
+    // 이거 안하면 하단이 뾰족해짐
+    overflow: hidden;
+    overflow-y: auto;
+
+    .title {
+        padding: 1rem;
+        margin-left: 2rem;
+        color: #29201E;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 3rem;
+    }
+    .content {
+        background: #564641;
+    }
+}
+
+// .TodoTemplate {
+//     width: 70%;
+//     // width가 주어진 상태에서 좌우 중앙 정렬
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 6rem;
+//     border-radius: 4px;
+//     overflow: hidden;
+  
+//     .title {
+//       background: #22b8cf;
+//       color: white;
+//       height: 4rem;
+//       font-size: 1.5rem;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//     }
+//     .content {
+//       background: white;
+//     }
+//   }
+  
